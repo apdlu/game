@@ -157,6 +157,4 @@ footer{
 }
 nav {
 	position: fixed;
-	float: left;
-	z-index: 100;
 }
