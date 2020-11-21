@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DADOS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css" media="screen">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script type="text/javascript" src="script.js"></script>
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<header class="col-12 col-s-12">
+		<br>
+		<p class="titulo">APUESTAS</p>
+	</header>
+	<nav>
+		<ul class="col-12 col-s-12">
+			<li class="dropdown">
+			    <a href="javascript:void(0)" class="dropbtn">OPCIONES</a>
+			    <div class="dropdown-content">
+			      <a href="#reglas">REGLAS</a>
+			      <a href="#juego">JUEGO</a>
+			      <a href="#da">DERECHOS DE AUTOR</a>
+
+			    </div>
+			  </li>
+		</ul>
+	</nav>
+	<div id="reglas" class="col-12 col-s-12">
+		<div class=" tit col-12 col-s-12">
+			<p>
+				REGLAS DEL JUEGO
+			</p>
+		</div>
+		<div class=" reg col-12 col-s-12">
+			<p>El juego trata sobre adivinar un número</p> 
+			<p>Solo puedes elegir entre los números  1  2  3  4  5 </p>
+			<p>No puedes dar otro número fuera de ese rango</p>
+			
+	</div>
+	<div id="juego" lass="col-12 col-s-12">
+		<div class=" tit col-12 col-s-12">
+			<p>
+				JUEGO
+			</p>
+		</div>
+		<div>
+			<div class="sig col-1 col-s-12">
+				<p>?</p>
+			</div>
+			<br>
+			<div class="jue">
+				<form>
+					<label for="fname">Inserte un número entre 1 y 5:</label>
+
+					<input type='text' id="numb">
+
+					<button type="button" onclick="myFunction()">Submit</button>
+
+					<p id="demo" class="resu col-12 col-s-12"></p>
+				</form>
+			</div>
+		</div>
+	</div>
+	<footer id="da">
+		<div class="footer">© 2020 Copyright:
+			<p>ANALÍA DE LA BARRA</p>
+	  	</div>
+	</footer>
+
+</body>
+</html>
